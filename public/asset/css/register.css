@@ -1,0 +1,57 @@
+:root {
+    --bg-orange: #f78400;
+    --text-lit :#c1c1c1;
+    --bg-lights: #eee;
+    --bg-footer: #04b0fa;
+    --text-b: #0d45dc;
+}
+
+.text-b { color: var(--text-b); font-size: 14px; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;   
+}
+
+/* main */
+.login-a a {
+    position: relative;
+}
+
+.login-a a::before{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    width: 100%;
+    border:  2px #000 solid;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    .login {
+        margin-top: 20px;
+    }
+
+    .login .card {
+        font-size: 12px;
+    } 
+
+    .login-card  {
+        font-size: 10px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .login {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .login-card  {
+        font-size: 12px;
+        text-align: right;
+    }
+}

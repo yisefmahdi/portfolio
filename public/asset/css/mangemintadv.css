@@ -1,0 +1,39 @@
+:root {
+    --bg-orange: #f78400;
+    --text-lit :#c1c1c1;
+    --bg-lights: #eee;
+    --bg-footer: #04b0fa;
+    --text-b: #0d45dc;
+    --box-shadow: #f3f0f0;
+}
+
+.text-b { color: var(--text-b); }
+.text-s { color: var(--text-lit); }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;   
+}
+
+.card {
+    width: 22rem;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .card {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    main {
+        margin-top: 70px;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+}

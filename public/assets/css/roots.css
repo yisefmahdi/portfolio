@@ -1,0 +1,32 @@
+:root {
+    --bg-orange: #f78400;
+    --text-lit :#c1c1c1;
+    --bg-lights: #eee;
+    --bg-footer: #04b0fa;
+}
+.h5-orange {
+    color: var(--bg-orange);
+}
+.btn-orange {
+    background: var(--bg-orange);
+    color: #fff;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
+
+.bg-footer {
+    background: var(--bg-footer);
+}
+
+.te-light {
+    color: var(--text-lit);
+}
+
+.bg-lights {
+    background: var(--bg-lights);
+}
+
+.font {
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Cairo', sans-serif;
+}
